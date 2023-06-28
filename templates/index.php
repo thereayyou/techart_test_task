@@ -42,7 +42,7 @@
                     </a>
                 <?}?>
                 <?for ($i=1; $i <= $arrayResult['pagesCount']; $i++) {
-                    if($_GET['page'] == $i) {?>
+                    if($getPage == $i) {?>
                         <div class="pagination_item active"><?=$i?></div>
                     <?} else {?>
                         <a class="pagination_item" href="?page=<?=$i?>"><?=$i?></a>

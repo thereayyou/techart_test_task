@@ -118,6 +118,7 @@ header {
 .news_item {
     display: flex;
     flex-direction: column;
+    justify-content: inherit;
     gap: 25px;
     max-width: 600px;
     padding-bottom: 25px;
@@ -232,12 +233,17 @@ header {
     gap: 35px;
 }
 
+.second_column {
+    padding-left: 50px;
+}
+
 .detail_date {
     border-radius: 20px;
     padding: 6px 18px 6px 18px;
     background-color: #ECF2F5;
     color: #6C6E7B;
     border-color: #6C6E7B;
+    margin-top: 50px;
 }
 
 .detail_title {
@@ -266,6 +272,7 @@ header {
     border-radius: 50px;
     padding: 16px 41px 16px 41px;
     max-width: 214px;
+    cursor: pointer;
 }
 
 .detail_button:hover {
