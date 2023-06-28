@@ -1,1 +1,1 @@
-Скриншоты лежат в папке screenshots ветка master.
+Скриншоты лежат в папке screenshots, ветка master.
